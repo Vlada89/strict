@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Arial';
+    src: url('./fonts/arial/ArialMT.eot');
+    src: local('./fonts/arial/Arial'), local('./fonts/arial/ArialMT'),
+        url('./fonts/arial/ArialMT.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/arial/ArialMT.woff2') format('woff2'),
+        url('./fonts/arial/ArialMT.woff') format('woff'),
+        url('./fonts/arial/ArialMT.ttf') format('truetype'),
+        url('./fonts/arial/ArialMT.svg#ArialMT') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+

@@ -1,0 +1,171 @@
+@media(min-width: 576px){
+    /*SM Breakpoint*/
+    .giant .giant-content h2{
+        font-size: 70px;
+    }
+    .giant .giant-content h2:after{
+        width: 320px;
+    }
+    .giant .giant-content p{
+        font-size: 10px;
+    }
+    .contact .btn{
+        margin-right: 0;
+    }
+}
+
+
+@media(min-width: 768px){
+    /*MD Breakpoint*/
+    header .navbar-brand img{
+        width: 30px;
+        height: 31px
+    }
+
+    header .navbar-light .navbar-nav .nav-item:not(:first-of-type){
+        margin-left: 50px;
+    }
+    header .navbar-light .navbar-nav .nav-link{
+        transition: none;
+        font-size: 14px;
+        border-bottom: none;
+        padding: 20px 0;
+    }
+    header .navbar-light .navbar-nav .nav-link:hover,
+    header .navbar-light .navbar-nav .nav-link.active
+    {
+        border-bottom: none;
+        color: #2c2d3c;
+        background-color:transparent;
+    }
+    .giant{
+        padding: 130px 0px 150px;
+    }
+    .giant .giant-content h2{
+        font-size: 90px;
+        padding: 30px 0;
+    }
+    .giant .giant-content h2:after{
+        width: 380px;
+    }
+    .giant .giant-content p{
+        font-size: 13px;
+    }
+    .design{
+        padding: 60px 0 70px;
+    }
+    .design .design-content{
+        padding: 20px 0 40px;
+        box-shadow: none;
+
+    }
+    .design h4{
+        font-size: 40px;
+    }
+    .design .design-content p{
+        font-size: 15px;
+    }
+    .showcase .showcase-content h4{
+        font-size: 41px;
+    }
+    .contact{
+        padding: 74px 0 108px
+    }
+     .contact .contact-content{
+        margin-bottom: 49px;
+    }
+    .contact h4{
+        font-size: 41px;
+    }
+    .contact .contact-form{
+        width:50%;
+
+    }
+    
+   
+
+
+
+}
+
+
+@media(min-width: 992px){
+    /*LG Breakpoint*/
+    header .navbar-light .navbar-nav .nav-link{
+        font-size: 16px
+    }
+    header .navbar-light .navbar-nav .nav-item:not(:first-of-type){
+        margin-left: 80px;
+    }
+
+    .giant .giant-content h2{
+        font-size: 100px;
+        padding: 34px 0;
+        margin-bottom: 35px;
+    }
+    .giant .giant-content h2:after{
+        width: 500px;
+    }
+    .giant .giant-content p{
+        font-size: 17px;
+    }
+    .design .design-content p{
+        font-size: 18px;
+    }
+    .awesome .awesome-item p{
+        padding: 0;
+    }
+    .showcase{
+        padding: 80px 0 116px;
+    }
+    .showcase .showcase-content p{
+        font-size: 15px;
+    }
+    .contact .btn{
+        height: 51px;
+        width: 146px;
+    }
+
+}
+
+
+@media(min-width: 1200px){
+    /*XL Breakpoint*/
+
+    header .navbar-light .navbar-nav .nav-link{
+        font-size: 18px
+    }
+    header .navbar-light .navbar-nav .nav-item:not(:first-of-type){
+        margin-left: 115px;
+    }
+
+    .giant .giant-content h2{
+        font-size: 120px;
+        padding: 45px 0;
+    }
+    .giant .giant-content h2:after{
+        width: 600px;
+    }
+    .giant .giant-content p{
+        font-size: 20px;
+        margin-bottom: 64px;
+    }
+    .giant .giant-content .btn{
+        height: 54px;
+        width: 176px;
+    }
+    .design .design-content p{
+        font-size: 20px;
+    }
+    
+}
+
+
+@media(min-width: 1400px){
+    /*XXL Breakpoint*/
+    .container{
+        max-width: 1170px;
+    }
+
+
+}
